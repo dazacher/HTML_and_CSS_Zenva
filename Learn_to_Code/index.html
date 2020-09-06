@@ -2,11 +2,11 @@
 <h2>The sky is blue</h2>
 The water is cold.
 
-<p>I want to <br/> learn coding</p>
+<p>I want to <br /> learn coding</p>
 
-<img src="background.png" alt="Background Image"/><br/>
+<img src="background.png" alt="Background Image" /><br />
 
-<img src="images/another image.png" alt="Another Image from a Images Folder"/>
+<img src="images/another image.png" alt="Another Image from a Images Folder" />
 
 <p>Find free resources on <a href="https://zenva.com" title="Learn Programming">Zenva</a> </p>
 
@@ -34,16 +34,33 @@ Link to <a href="newpage.html">Another Page</a>
 
 <form action="Submit">
     <div>
-        Name: <input type="text" required/>
-    </div>
-   <div>
-       Age: <input type="number"/>
+        Name: <input type="text" required />
     </div>
     <div>
-        <input type="checkbox" value="Enrolled" checked/> Is Enrolled?
+        Age: <input type="number" />
+    </div>
+    <div>
+        <input type="checkbox" value="Enrolled" checked /> Is Enrolled?
     </div>
     <div>
         <textarea name="" id="MultilineTextarea" cols="30" rows="10">Multiline Textarea</textarea>
+    </div>
+    <div>
+        Color:
+        <select name="color" id="colors">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green" selected>Green</option>
+        </select>
+    </div>
+    <div>
+        Locations:
+        <select name="location" id="locations" multiple>
+            <option value="brisbane">Brisbane</option>
+            <option value="Santiago" selected>Santiago</option>
+            <option value="beijing">Beijing</option>
+            <option value="madrid" selected>Madrid</option>
+        </select>
     </div>
     <div>
         <input type="Submit" value="Save" />
